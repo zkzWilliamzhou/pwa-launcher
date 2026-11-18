@@ -1,0 +1,22 @@
+{
+  "name": "pwa-launcher",
+  "version": "0.1.0",
+  "description": "Progressive Web App visual development and cross-platform publishing toolchain",
+  "keywords": ["pwa", "progressive-web-app", "offline", "installable", "cross-platform"],
+  "author": "PWA Launcher Contributors",
+  "license": "MIT",
+  "bin": { "pwa-launcher": "./dist/index.js" },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "dev": "node dist/index.js dev",
+    "build": "node dist/index.js build",
+    "test": "node dist/index.js test",
+    "init": "node dist/index.js init",
+    "publish": "node dist/index.js publish"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "https://github.com/yourname/pwa-launcher.git" },
+  "bugs": { "url": "https://github.com/yourname/pwa-launcher/issues" }
+}
